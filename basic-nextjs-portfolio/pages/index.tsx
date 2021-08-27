@@ -19,52 +19,44 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Image alt="" height={250} src={hero} width={364} />
+
         <h1 className={styles.title}>John Vandivier</h1>
         <p className={styles.description}>A Portfolio</p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a
+            href="https://github.com/Vandivier"
+            className={styles.card}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <h2>GitHub</h2>
+            <p>Experience my passion for Open Source!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://www.linkedin.com/in/john-vandivier"
             className={styles.card}
+            rel="noreferrer"
+            target="_blank"
           >
-            <h2>Examples</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>LinkedIn</h2>
+            <p>Connect with me professionally and learn about my background.</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.afterecon.com/"
             className={styles.card}
+            rel="noreferrer"
+            target="_blank"
           >
-            <h2>Deploy</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Blog</h2>
+            <p>Read my miscellaneous ramblings and learnings!</p>
           </a>
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      <footer className={styles.footer}>Powered by Developers Like You!</footer>
     </div>
   );
 };
