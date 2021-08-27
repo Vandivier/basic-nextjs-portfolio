@@ -18,7 +18,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Image alt="" height={250} src={hero} width={364} />
+        {/* TODO: app won't build and export with this image and next.config.js as-is */}
+        {/* <Image alt="" height={250} src={hero} width={364} /> */}
 
         <h1 className={styles.title}>John Vandivier</h1>
         <p className={styles.description}>A Portfolio</p>
