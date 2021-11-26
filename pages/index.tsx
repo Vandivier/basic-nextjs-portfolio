@@ -1,9 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 
 import styles from "../styles/Home.module.css";
-import hero from "./hero.png";
 
 const Home: NextPage = () => {
   return (
@@ -18,9 +16,6 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        {/* TODO: app won't build and export with this image and next.config.js as-is */}
-        {/* <Image alt="" height={250} src={hero} width={364} /> */}
-
         <h1 className={styles.title}>John Vandivier</h1>
         <p className={styles.description}>A Portfolio</p>
 
@@ -53,6 +48,19 @@ const Home: NextPage = () => {
           >
             <h2>Blog</h2>
             <p>Read my miscellaneous ramblings and learnings!</p>
+          </a>
+
+          <a
+            href="https://vandivier.github.io/vanilla-flat-white/"
+            className={styles.card}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <h2>Vanilla Flat White</h2>
+            <p>
+              An assortment of microprojects in HTML, CSS, and Vanilla
+              JavaScript.
+            </p>
           </a>
         </div>
       </main>
