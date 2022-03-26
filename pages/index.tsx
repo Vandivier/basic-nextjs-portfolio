@@ -51,6 +51,19 @@ const Home: NextPage = () => {
           </a>
 
           <a
+            href="https://vandivier.github.io/ladderly-slides/"
+            className={styles.card}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <h2>Ladderly Slides</h2>
+            <p>
+              #LearnToCode! An open source software development curriculum,
+              inclusive of job search prep.
+            </p>
+          </a>
+
+          <a
             href="https://vandivier.github.io/vanilla-flat-white/"
             className={styles.card}
             rel="noreferrer"
